@@ -5,12 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title>Guia perguntas</title>
 </head>
 <body>
- <h1>Estilo do bootrstrap</h1>
+  <nav class="navbar navbar-light bg-primary">
+   <a class="navbar-brand " href="/"><img src="/img/guia.png"></a>
+  </nav>
+ <div class="container">
+   <div class="card" id="form-pergunta">
+     <div class="card-header  ">
+      <h3>Realizar perguntas</h3>
+     </div>
 
-
+     <div class="card-body">
+      <form>
+        <label>Título</label>
+        <input type=text placeholder="Título" class="form-control">
+        <br><label>Descrição</label>
+        <textarea placeholder="Descreva sua Dúvida aqui" class="form-control"></textarea>
+        <br><button class="btn btn-primary">Enviar</button>
+      </form>
+     </div>
+   </div>
+   </div>
 
 </body> 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
