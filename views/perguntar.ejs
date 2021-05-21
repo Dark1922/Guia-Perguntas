@@ -8,11 +8,12 @@
      </div>
 
      <div class="card-body">
-      <form>
+      <form method="POST" action="/salvarpergunta">
         <label>Título</label>
-        <input type=text placeholder="Título" class="form-control">
+        <input type=text placeholder="Título" class="form-control" name="titulo">
         <br><label>Descrição</label>
-        <textarea placeholder="Descreva sua Dúvida aqui" class="form-control"></textarea>
+        <textarea placeholder="Descreva sua Dúvida aqui" class="form-control" name="descricao">
+        </textarea>
         <br><button class="btn btn-primary">Enviar</button>
       </form>
      </div>
