@@ -1,6 +1,7 @@
-body {
-  background-color: #eceff1;
+body{
+    background-color: #eceff1;
 }
-#form-pergunta {
-  margin-top: 5vh; /* 5 porcento da altura da tela*/
+
+#formulario-pergunta{
+    margin-top: 5vh;
 }
