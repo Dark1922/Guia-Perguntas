@@ -1,5 +1,4 @@
-# Guia-Perguntas
-Perguntas e Resposta simples com NodeJS e Mysql
+
 <h1 align="center">Guia Perguntas</h1>
 
 ## 🚀 Tecnologias
